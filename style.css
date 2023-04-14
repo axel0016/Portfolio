@@ -1,0 +1,250 @@
+@font-face {
+    font-family: myfont;
+    src: url(Cairo,Gentium_Book_Plus,Poppins\Poppins\Poppins-ExtraBoldItalic.ttf);
+}
+*{
+    font-family: myfont;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+header{
+    
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:10px 20px;
+}
+header a img{
+    width: 1.7em;
+    float: absolute;
+}
+.imo:hover{
+    transform: scale(1.05);
+    content: url("D:\\projet\\images\\fotor_2023-4-5_3_22_0.png");
+    
+}
+.logo{
+    text-decoration: none;
+    color: #afb2c4;
+    text-transform: uppercase;
+    font-size: 1.8em;
+    font-weight: 700;
+}
+.navig a{
+    color: #a5a7b5;
+    text-decoration: none;
+    font-size: 1.2em;
+    font-weight: 450;
+    padding-left: 10px;
+    padding-right: 17px;
+    margin-top: -20px;
+}
+.navig a:hover{
+    color: #56545b;
+
+}
+.navig {
+    margin-top: -20px;
+}
+
+nav a.active{
+    color: #56545b;
+}
+.main{
+    width: 100%;
+    min-height: 100vh;    
+    display: flex;
+    align-items: center;
+    background: url(images/Wallpaper-House.com_256815.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    
+}
+.main h2{
+    color: #8b8888;
+    font-size: 1.4em;
+    font-weight: 500;
+}
+.main h2 span{
+    display: inline-block;
+    margin-top:10px ;
+    color: #6b6c74;
+    font-size: 3em;
+    font-weight: 600;
+}
+.main h3{
+    color: #515151;
+    font-size: 2em;
+    font-weight: 700;
+    margin-top: 10px;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.cadre {
+    background-color: #c0c2c7;
+    margin-top: 250px;
+    margin-right: 300px;
+    margin-bottom: 100px;
+    margin-left: 210px;
+    border-radius: 30px;
+    padding: 3%;
+    color:#7a7b82;
+    line-height: 1.3;
+    font-size: 20px;
+    font-family: "Lato", sans-serif;
+    
+}
+.contient{
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+    
+    
+}
+.contient3 {
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+    margin-left: 160px;
+}
+.contient2 {
+    margin-top: 170px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+    margin-left: 118px;
+}
+.card{
+    background-color: #e6e6e6;
+    border: 1px solid #fff;
+    min-height: 14em;
+    width: 20em;
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 20px;        
+    transition: 0.7s ease;
+    box-shadow: 0 5px 25px rgba(1,1,1,30%);
+}
+.card1{
+   
+        min-height: 10em;
+        width: 11em;
+        overflow: hidden;
+        margin: 20px;
+        transition: 0.7s ease;
+}
+.card2{
+    
+        min-height: 10em;
+        width: 11em;
+        overflow: hidden;
+        margin: 20px 40px;
+        transition: 0.7s ease;
+        margin-top: -40px;
+}
+.card:hover {
+    transform: scale(1.1);
+}
+.card1:hover{
+    transform: scale(1.1);
+}
+.card2:hover {
+    transform: scale(1.1);
+}
+.card2 .info h3{
+    color: #89898c;
+}
+.icon img{
+    width: 100%;
+}
+.info{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.progress-bar {
+                    width: 100%;
+                    background-color: #f2f2f2;
+                    height: 20px;
+                    border-radius: 10px;
+                    margin: 20px 0;
+}
+        
+.progress {
+                    height: 100%;
+                    line-height: 20px;
+                    text-align: center;
+                    color: #fff;
+                    background-color: #4caf50;
+                    border-radius: 10px;
+}
+
+
+
+ul#divers {
+    display: flex;
+    
+    margin-top: 50px;
+    margin-left: 460px;
+}
+
+ul#divers li {
+    line-height: 10vh;
+}
+
+li a {
+    color: #5e5b5b;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    transition: 0.7s ease;
+
+
+    font-size: 30px;
+
+    font-weight: 400;
+}
+
+ul#divers li img {
+    align-self: center;
+    margin: 9px 20px 20px 20px;
+
+}
+
+.i2 {
+    margin-left: 50px;
+}
+
+li:hover {
+    transform: scale(1.1);
+}
+.main-btn{
+    color: #6b6c74;
+    background-color: #bdbfcf;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 600;
+    display: inline-block;
+    padding: 0.9375em 2.1875em;
+    letter-spacing: 1px;
+    border-radius: 12.5px;
+    transition: 0.7s ease;
+    
+}
+.main-btn:hover{
+    scale: 1.1;
+}
