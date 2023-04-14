@@ -66,19 +66,19 @@ nav a.active{
     background-attachment: fixed;
     
 }
-.main h2{
+.main .cont .sal h2{
     color: #8b8888;
     font-size: 1.4em;
     font-weight: 500;
 }
-.main h2 span{
+.main .cont .sal h2 span{
     display: inline-block;
     margin-top:10px ;
     color: #6b6c74;
     font-size: 3em;
     font-weight: 600;
 }
-.main h3{
+.main .cont .sal h3{
     color: #515151;
     font-size: 2em;
     font-weight: 700;
@@ -108,26 +108,28 @@ nav a.active{
     flex-direction: row;
     flex-wrap: wrap;
     margin-bottom: 50px;
-    
-    
+    margin:0 auto;
+    margin-top: 110px;
 }
 .contient3 {
+    margin: 0 auto;
     margin-top: 200px;
     display: flex;
     justify-content: space-between;
     flex-direction: row;
     flex-wrap: wrap;
     margin-bottom: 50px;
-    margin-left: 160px;
+    
 }
 .contient2 {
+    margin: 0 auto;
     margin-top: 170px;
     display: flex;
     justify-content: center;
     flex-direction: row;
     flex-wrap: wrap;
     margin-bottom: 50px;
-    margin-left: 118px;
+    
 }
 .card{
     background-color: #e6e6e6;
@@ -199,9 +201,12 @@ ul#divers {
     display: flex;
     
     margin-top: 50px;
-    margin-left: 460px;
+    
 }
+.fio{
+    margin: 0 auto;
 
+}
 ul#divers li {
     line-height: 10vh;
 }
@@ -247,4 +252,17 @@ li:hover {
 }
 .main-btn:hover{
     scale: 1.1;
+}
+.cont{
+    display: flex;
+    justify-content: space-around;
+    
+    
+}
+.sal{
+    margin-left: -80px;
+}
+.sak{
+    margin-right: -50px;
+    margin-top: -10px;
 }
