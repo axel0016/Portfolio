@@ -87,12 +87,16 @@ nav a.active{
     margin-top: 10px;
     margin-bottom: 20px;
 }
+
 .cadre {
     background-color: #c0c2c7;
+    
+    margin: 0 100;
     margin-top: 250px;
-    margin-right: 300px;
+    
     margin-bottom: 100px;
-    margin-left: 210px;
+    margin-left:80px ;
+    margin-right: 80px;
     border-radius: 30px;
     padding: 3%;
     color:#7a7b82;
